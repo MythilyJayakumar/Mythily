@@ -1,88 +1,110 @@
-<!DOCTYPE html>
 <html lang=""en">
-<head>
-    <style>
-        section{
-            background-color:#f2f2f2;
-            padding: 20px;
-            margin:10px;
-        }
-        article 
-        {
-            border:1px solid blue;
-            padding:10px;
-            margin:10px;
-        }
-        span{
-            color:orchid;
-            font-weight:bold;
-        }
-        nav{
-            background-color:#555;
-            padding:10px;
-            text-align:center;
-        }
-        nav a {
-            color:red;
-            margin:10px;
-            text-decoration:none;
-        }
-        div{
-               background-color:orange;
-               padding:10px;
-               margin:10px;
-               
-        }
-        /* Basic styles for the container */
-        body
-        {
-            font-family:Arial,sans-serif;
-            margin:0;
-            padding:0;
-        }
-        header,footer{
-            background-color:#333;
-            color:green;
-            text-align: center;
-            padding:10px;
-        }
-    </style>
-</head>
+<body>
+<header>
+    <div class=""container">
+        <!--Hamburger Menu icon-->
+        <div class="hamburger" id=""hamburger">
+            &#9776;
+ </div>
+ <nav id="navMenu">
+    <ul>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#education">EDUCATION</a></li>
+        <li><a href="#certificates">CERTIFICATES</a></li>
+        <li><a href="#Hobbies">HOBBIES</a></li>
+        <li><a href="#Details">DETAILS</a></li>
+        <li><a href="#Projects">PROJECTS</a></li>
+        <li><a href="#Contact">CONTACT</a></li>
+        <li><a href="resume.pdf" download class="btn-resume">RESUME</a></li>
+    </ul>
+ </nav>
+    </div>
+</header>
+<section class="WELCOME">
+    <div class=""container">
+    <h2> HI,I'M MYTHILY S</h2>
+<p>WEB DEVELOPER | DESIGNER | CREATOR</p>
+<br>
+<a href="#PROJECTS" CLASS="BTN">VIEW PROJECTS</a>
+</div>
+</section>
 
-</body>
-    <header>
-        <h1> Welcome❤️</h1>
-        </header>
-        <nav>
-            <a href="#"> Home</a>|<a href="#">About</a>|  <a href="#">Contact</a>
-        </nav>
-        <main>
-
-        </main>
-        <div>
-        <h2> DIV CONTAINER</h2>
-        <p>This is a block tree container</p>
+<section id=""About" class=""About">
+    <div class="Container">
+<h2> About Me</h2>
+        <p>I AM A WEB DEVELOPER WITH A PASSION FOR CREATING BEAUTIFUL AND FUNCTIONAL WEBSITES. I ENJOY TURNING COMPLEX PROBLEMS INTO SIMPLE,ELEGANT SOLUTIONS</p>
+    </div>
+</section>
+<section id="Education" class="Education">
+    <div class=""container">
+<h2> Education & Qualiofication</h2>
+<ul>
+    <li><strong>Bachelor of Technology in Computer Science</strong>-Madras University(2021-2024)</li>
+    <li><strong>High School</strong>-Christ King Matric Hr Sec School(1998-2000)</li>
+    <section id=""certificates" class="Certificates">
+        <div class=""Container">
+<h2>CERTIFICATES</h2>
+            <ul>
+                <li>HDCA Certificate</li>
+                <li>JavaScript Certificate</li>
+                <li>C, C++</li>
+    <section id="Hobbies" class"Hobbies">
+        <div class=""Container">
+<h2>HOBBIES</h2>
+    <p>
+        Reading Books, Listening Music, Cooking
+    </p>
+</div>
+    </section>
+    <section id=""details" class="Personal-Details">
+        <div class="Container">
+<h2>Personal Details</h2>
+            <ul>
+                <li><strong>Name:</strong> Mythily S</li>
+                <li><strong>BOB:</strong> Sep 14</li>
+                <li><strong>Phone:</strong> 1234567891</li>
+                <li><strong>Email:</strong>abc@gmail.com</li>
+                <li><strong>Location:</strong>Chennai</li>
+                
+            </ul>
         </div>
+    </section>
+    <section id="projects"class="projects">
+        <div class=""container">
+<h2>Projects</h2>
+        <div class="project-grid">
+        <div class="project-card">
+<h3>Projects</h3>
+<p>About Security Related</p>
+        </div>
+        </div>
+    </div>
+    </section>
 
-        <section>
-            <h2>SECTION CONTAINER</h2>
-            <p>This is a semantic section</p>
-        </section>
-        <article>
-            <h2> ARTICLE CONTAINER</h2>
-            <P> This is a independent content unit. Here's a <span> highlighted</span> word using the span container</P>
-        </article>
-        <figure>
-            <img src="https://plachold.co/600*400" alt="Sample Image">
-            <figcaption> Example of a Semantic image container.</figcaption>
-        </figure>
-        <aside>
-            <h3> Related Content</h3>
-            <p> Check out out articles on html best practices</p>
-        </aside>
-        <footer>
-            <p>@ 2025 All right reserved</p>
-        </footer>
-    </header>
+    <section id="contact" class="contact">
+        <div class=""container">
+<h2>Contact Me</h2>
+        <form id="contactform">
+            <input type="text"text placeholder="Mythily s"/>
+            <input type="email"text placeholder="abc@gmail.com/>
+            <textarea placeholder="Welcome to CSS"></textarea>
+            <button type="submit">Send</button>
+</form>
+<p id=""formstatus"></p>
+    </div>
+    </section>
+
+    <footer>
+<div class="container">
+<p>&copy;2025 Mythily S. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+            </ul>
+        </div>
+    </section>
+</ul></div>
+</section>
 </body>
 </html>
